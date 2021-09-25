@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alamin's Web- My very first website design</title>
+    <link rel="icon" href="images2/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f724a5863b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!------- Header ------->
+    <section class="subHeader">
+        <nav>
+            <a href="index.html" class="logo_a"><h1 class="logo">ALAMIN'S WEB</h1></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1 class="hero-text">Contact Us</h1>
+
+    </section>
+
+<!----- Contact Us ----->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58490.57280085161!2d90.46976669937972!3d23.616494971652408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b10812a520a3%3A0x6d3af4457bec4c90!2z4Kao4Ka-4Kaw4Ka-4Kav4Ka84Kaj4KaX4Kae4KeN4Kac!5e0!3m2!1sbn!2sbd!4v1632399983818!5m2!1sbn!2sbd" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section class="contactUs">
+    <div class="row">
+        <div class="contactCol">
+        <div>
+            <i class="fa fa-home"></i>
+            <span>
+                <h5>179/2 SG Road</h5>
+                <p>Muslim Nagar, Narayanganj</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h5>+88017 31186 929</h5>
+                <p>Saturday to Thursday, 24h</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+                <h5>alaminbinashadali777@gmail.com</h5>
+                <p>Email us your query</p>
+            </span>
+        </div>
+    </div>
+    <div class="contactCol">
+        <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter Name" required>
+            <input type="email" name="email" placeholder="Enter Eamil" required>
+            <input type="text" name="subject" placeholder="Which service you want?" required> 
+            <textarea rows="8" name="messege" placeholder="Please let us know about your requirment or what kind of service your want?"></textarea>
+            <button class="hero-btn red-btn">SEND MESSEGE</button>        
+        </form>
+
+    </div>
+
+
+    </div>
+</section>
+
+
+<!----- Footer ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            We are group of WEB developer and designer who are all ready to Amaze you 
+            with our professional skills our flair for creative developing and designing 
+            on any type of web means that we can help you reach your target audience 
+            effectively. Drop me a message today and let's make your viewers that killer 
+            first impression! .Our goal is to deliver work with honesty, safety and timely manner.
+        </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/alamin929/"><i class="fa fa-facebook"></i></a>
+            <a href="https://mobile.twitter.com/AlAminBinAshad3"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/alamin_bin_ashad_ali/?hl=en"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/al-amin-bin-ashad-ali-62ba7620a/"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made By <i class="fa fa-heart-o">Al-Amin Bin Ashad Ali</i></p>
+
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
